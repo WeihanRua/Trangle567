@@ -65,13 +65,13 @@ class TestTriangles(unittest.TestCase):
     # Test the triangle is the Isosceles
    
     def testIsoscelesTriangle1(self):
-        self.assertEqual(classifyTriangle(1, 1, 2), 'Isosceles')
+        self.assertEqual(classifyTriangle(2, 2, 3), 'Isoceles')
 
     def testIsoscelesTriangle2(self):
-        self.assertEqual(classifyTriangle(2, 1, 1), 'Isosceles')
+        self.assertEqual(classifyTriangle(2, 3, 2), 'Isoceles')
 
     def testIsoscelesTriangle3(self):
-        self.assertEqual(classifyTriangle(1, 2, 1), 'Isosceles')
+        self.assertEqual(classifyTriangle(3, 2, 2), 'Isoceles')
 
 
 if __name__ == '__main__':
